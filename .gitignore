@@ -1,5 +1,23 @@
-data/*
+# Data (never commit raw data)
+data/raw/
+data/external/
+data/interim/
+data/clean
+
+# Python
 __pycache__/
 *.pyc
-*.log
+*.pyoSS
+*.pyd
 .env
+.venv/
+venv/
+
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
